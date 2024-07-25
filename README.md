@@ -1,7 +1,5 @@
 # comento_backendAPI
 
----
-
 ## 1차 과제
 
 <ol>
@@ -17,6 +15,25 @@
 <li>API 구성
 <ul>
 <li>Ping API 구성
-<ul><li>Java, Maven, Jetty를 이용하여 Ping API 구성</li></ul></li>
+<ul><li>Spring Framework 활용 API 구성</li></ul></li>
 <li>DB 조회 API 구성
-<ul><li>Java, Maven, Jetty, Mybatis를 이용하여 DB 조회 API 구성</li></ul></li>
+<ul><li>Java, Maven, Jetty, Mybatis를 이용하여 DB 조회 API 구성</li></ul></li></ul></ol>
+
+---
+
+## 2차 과제
+
+1. 개발환경 세팅
+   - Java 개발환경 구성
+     - JDK : corretto-17.0.12 (aarch64)
+   - Spring Boot 프로젝트 생성
+     - Spring Boot 3.2.8
+     - Maven Project
+     - Dependencies : Lombok, Spring Web, Spring Boot DevTools
+2. API 구성
+   - Ping API
+     - endpoint : /ping
+     - Spring Framework 활용
+3. API 테스트
+   - Ping API
+     - /ping 접속 및 출력 정상
