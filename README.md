@@ -21,7 +21,7 @@
 
 ---
 
-## 2차 과제
+## 3차 과제
 
 1. 개발환경 세팅
    - Java 개발환경 구성
@@ -32,8 +32,12 @@
      - Dependencies : Lombok, Spring Web, Spring Boot DevTools
 2. API 구성
    - Ping API
-     - endpoint : /ping
+     - /ping
      - Spring Framework 활용
+   - LoginCount API
+     - /api/v1/logins/{year}/{month}
+     - Mybatis, MariaDB 연동
+     - statistic11 database 사용
 3. API 테스트
    - Ping API
      - /ping 접속 및 출력 정상
