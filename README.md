@@ -23,13 +23,19 @@
 
 ## 3차 과제
 
-1. 개발환경 세팅
+1. 개발환경 세팅 및 DB 구성
    - Java 개발환경 구성
      - JDK : corretto-17.0.12 (aarch64)
    - Spring Boot 프로젝트 생성
      - Spring Boot 3.2.8
      - Maven Project
      - Dependencies : Lombok, Spring Web, Spring Boot DevTools
+   - DB 구성
+     - statistic11 Database 생성
+       - requestInfo Table 생성
+       - requestCode Table 생성
+       - user Table 생성
+     - requestInfo Table dummy data 입력
 2. API 구성
    - Ping API
      - /ping
@@ -41,3 +47,6 @@
 3. API 테스트
    - Ping API
      - /ping 접속 및 출력 정상
+  - LoginCount API
+    - /api/v1/logins/20 접속 및 출력 정상
+    - /api/v1/logins/20/04 접속 및 출력 정상
