@@ -47,6 +47,6 @@
 3. API 테스트
    - Ping API
      - /ping 접속 및 출력 정상
-  - LoginCount API
-    - /api/v1/logins/20 접속 및 출력 정상
-    - /api/v1/logins/20/04 접속 및 출력 정상
+   - LoginCount API
+     - /api/v1/logins/20 접속 및 출력 정상
+     - /api/v1/logins/20/04 접속 및 출력 정상
